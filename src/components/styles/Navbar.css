@@ -1,0 +1,51 @@
+.logo{
+  font-size: 34px;
+  color:white;
+}
+.Navbar{
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    display: grid;
+    align-items: stretch;
+
+    left: 0;
+    right: 0;
+    height: 80px;
+
+} 
+
+ul {
+    width: 100%;
+    font-size: 24px;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #034F84;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    display: inline-block;
+    margin-left: 40px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #37474f;
+  }
